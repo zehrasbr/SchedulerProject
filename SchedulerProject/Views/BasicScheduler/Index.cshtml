@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Takvim ve Planlayıcı</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:700px;width:1250px;margin:0 auto">
+        @Html.Raw(Model.Render())
+    </div>
+</body>
+</html>

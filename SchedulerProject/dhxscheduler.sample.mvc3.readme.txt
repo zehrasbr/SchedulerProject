@@ -1,0 +1,6 @@
+﻿Run /Calendar/Index to see scheduler in action.
+
+Files:
+/Controllers/CalendarController.cs
+/Views/Calendar/Index.cshtml
+/Models/CalendarEvent.cs
